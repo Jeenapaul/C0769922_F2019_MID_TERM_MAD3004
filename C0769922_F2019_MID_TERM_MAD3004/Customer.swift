@@ -20,13 +20,13 @@ class Customer : IDisplay
         self.bDictionary = bDictionary
         self.fullName = firstName + lastName
 }
-    func iDisplay() {
-        print("**************************************************************")
+    func PrintData() {
+        print("**********************")
         print("Customer Id : \(customerId)")
         print("Full Name : \(fullName)")
         for i in bDictionary.values
         {
-            i.iDisplay()
+            i.PrintData()
         }
         
     }

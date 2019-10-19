@@ -26,10 +26,10 @@ class Mobile : Bill
         print("Manufacturer Name : \(String(describing: manufacturerName))")
         print("Plan Name : \(String(describing: planName))")
         print("Mobile number : \(String(describing: mobileNumber))")
-        print("Minutes used : \(String(describing: minutesUsed.minuteFormat()))")
-        print("Bill Amount : \(billAmount.currencyFormat())")
-        print("Internet Used : \(String(describing: internetUsed.gbUsed()))")
+        //print("Minutes used : \(String(describing: minutesUsed.minuteFormat()))")
+       // print("Bill Amount : \(billAmount.currencyFormat())")
+        //print("Internet Used : \(String(describing: internetUsed.gbUsed()))")
             
         }
 
-
+}

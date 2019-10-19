@@ -18,8 +18,8 @@ class Hydro : Bill {
         print("Bill Type : \(billType)")
         print("Bill Date : \(billDate)")
         print("Agency Name : \(agencyName)")
-      
-    }
+       //print("Unit Consumed : \(unitsConsumed.unitsConsumed")
+        //print("Bill Amount : \(billAmount.billAmount")
 }
     
-
+}

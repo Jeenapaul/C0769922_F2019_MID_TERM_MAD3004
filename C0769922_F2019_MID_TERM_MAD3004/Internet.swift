@@ -19,7 +19,7 @@ class Internet : Bill{
         print("Bill Type : \(billType)")
         print("Bill Date : \(billDate)")
         print("Provider Name : \(providerName)")
-        print("Data Used : \(internetUsed.InternetUsed())")
-        print("Bill Amount : \(billAmount.currencyFormat())"
+       // print("Data Used : \(internetUsed.InternetUsed())")
+        //print("Bill Amount : \(billAmount.currencyFormat())"
     
 }

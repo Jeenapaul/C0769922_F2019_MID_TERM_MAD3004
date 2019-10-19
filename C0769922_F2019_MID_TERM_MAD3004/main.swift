@@ -11,3 +11,34 @@ var m1 = Mobile(manufacturerName: "Apple", planName : "Full Package", mobileNumb
 
 var h1 = Hydro(agencyName: "Planet Energy", unitsConsumed: 48.8, billAmount: 98, billID: "H101", billType: Bill.BillingTypes.Hydro, billDate: "26 Feb 2019")
 var c1 = Customer(customerId: "c101", firstName: "jeena", lastName: "Paul", email: "kjlll@gmail.com", bDictionary : [i1.billID:i1,m1.billID:m1,h1.billID:h1])
+
+
+
+
+
+cDictionary.updateValue(c1, forKey: c1.customerId)
+
+
+for i in cDictionary.values{
+    i.PrintData()
+    
+    for temp in cDictionary.values{
+        
+        for i1 in temp.bDictionary.values
+        {
+            
+        }
+    }
+    
+    
+    
+    for (k,v) in cDictionary{
+        
+        if(k == "c101")
+        {
+            v.PrintData()
+        }
+        
+    }
+}
+

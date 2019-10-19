@@ -12,6 +12,14 @@ class Hydro : Bill {
         super.init(billID: billID, billDate: billDate, billType: billType)
         
      }
+    override func iDisplay() {
+        print("***************************************")
+        print("Bill Id : \(billID)")
+        print("Bill Type : \(billType)")
+        print("Bill Date : \(billDate)")
+        print("Agency Name : \(agencyName)")
+      
+    }
 }
     
 

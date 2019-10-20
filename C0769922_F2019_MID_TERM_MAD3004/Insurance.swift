@@ -8,4 +8,3 @@ class Insurance : Bill{
         case Car
         case Business
     }
-}

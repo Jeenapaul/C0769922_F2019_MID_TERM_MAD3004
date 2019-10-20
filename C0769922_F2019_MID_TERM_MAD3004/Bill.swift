@@ -8,7 +8,7 @@ class Bill : IDisplay
     
     
     
-    var billID : String
+    var billId : String
     var billDate :  String
     enum BillingTypes {
         case Internet
@@ -18,8 +18,8 @@ class Bill : IDisplay
     var billType : BillingTypes
     var totalBillAmount : Float!
     
-    init(billID : String , billDate : String, billType : BillingTypes) {
-        self.billID = billID
+    init(billId : String , billDate : String, billType : BillingTypes) {
+        self.billId = billId
         self.billDate = billDate
         self.billType = billType
     }
